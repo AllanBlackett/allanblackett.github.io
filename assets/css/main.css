@@ -4720,3 +4720,9 @@ input, select, textarea {
 	text-align: center;
 	padding-top: 1em;
   }
+
+  #contacts {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 1em;
+  }
