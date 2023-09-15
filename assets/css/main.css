@@ -24,14 +24,14 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	/* Smooth Scrolling */
-	scroll-behavior: smooth;
+	
 	line-height: 1;
 }
 
@@ -4690,7 +4690,7 @@ input, select, textarea {
 
 	}
 
-	
+	/*?Scroll to the top button  */
 .top {
 	--offset: 50px; 
 	
@@ -4714,3 +4714,9 @@ input, select, textarea {
 	font-size: 25px;
   }
   
+  /* Latest Projects Section */
+  #projects {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 1em;
+  }
