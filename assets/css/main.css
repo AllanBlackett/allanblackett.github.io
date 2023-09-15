@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	/* Smooth Scrolling */
+	scroll-behavior: smooth;
 	line-height: 1;
 }
 
@@ -4687,3 +4689,28 @@ input, select, textarea {
 		}
 
 	}
+
+	
+.top {
+	--offset: 50px; 
+	
+	position: sticky;
+	bottom: 20px;      
+	margin-right:10px; 
+	place-self: end;
+	margin-top: calc(100vh + var(--offset));
+	
+	/* visual styling */
+	text-decoration: none;
+	padding: 10px;
+	font-family: sans-serif;
+	color: #fff;
+	background: #000;
+	border-radius: 100px;
+	white-space: nowrap;
+  }
+  
+  p {
+	font-size: 25px;
+  }
+  
