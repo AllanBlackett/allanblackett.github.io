@@ -7,7 +7,8 @@ Future Updates:
 - Adding a "back to the top" button at the bottom of the page.
 - Update fonts 
 - Adding icons to the "Who am I" section
-- Add Contact Form 
+- Adding Contact Form 
+- Addding Favicon
 
 Credits:
 
