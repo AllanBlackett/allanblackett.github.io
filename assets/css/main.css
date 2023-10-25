@@ -3284,7 +3284,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 12rem 4rem 8rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -4699,6 +4699,7 @@ input, select, textarea {
   /* Sub-headline */
 	.sub-headline {
 		font-style: normal!important;
+		padding-top: 1em;
 	}
 
 /* Who am I Section */
