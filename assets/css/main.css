@@ -2943,7 +2943,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 0 0;
 			text-align: center;
 		}
 
@@ -4756,3 +4756,44 @@ input, select, textarea {
   p {
 	font-size: 25px;
   } */
+
+  /*? Skills Section  */
+   /* Basic styling for the skills container */
+   .skills-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 20px 90px 20px;
+
+  }
+
+  /* Section titles */
+  .skills-title {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+
+  /* Grid layout for skills */
+  .skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 10px;
+  }
+
+  /* Each skill item */
+  .skill-item {
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+  }
+
+  /* Responsive layout adjustments */
+  @media (min-width: 600px) {
+	.skills-grid {
+	  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+  }
