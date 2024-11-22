@@ -4845,11 +4845,11 @@ input, select, textarea {
 
 .skills-title {
 	font-size: 2.5rem;
-}
-
-.skills-icons {
+  }
+  
+  .skills-icons {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr); /* 4 icons per row */
+	grid-template-columns: repeat(4, 1fr); /* 4 icons per row for larger screens */
 	gap: 20px; /* Space between icons */
 	text-align: center;
 	padding: 20px;
@@ -4878,6 +4878,23 @@ input, select, textarea {
 	font-size: 1rem;
 	color: #333;
 	text-align: center;
-  } 
+  }
   
- 
+  /* Responsive Layouts */
+  @media (max-width: 1024px) {
+	.skills-icons {
+	  grid-template-columns: repeat(3, 1fr); /* 3 icons per row */
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.skills-icons {
+	  grid-template-columns: repeat(2, 1fr); /* 2 icons per row */
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.skills-icons {
+	  grid-template-columns: 1fr; /* 1 icon per row */
+	}
+  }
