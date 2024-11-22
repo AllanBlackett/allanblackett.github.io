@@ -3766,7 +3766,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			/* border-top: solid 2px #eeeeee; */
 			margin: 0;
 		}
 
@@ -4703,8 +4703,14 @@ input, select, textarea {
 		padding-top: 1em;
 	}
 
-/* Who am I Section */
-/* Copy */
+/* Skills Section */
+#skills {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 1em;
+	background-color: #212931;
+    color: #fff;
+  }
 
   /* Latest Projects Section */
   #projects {
@@ -4860,10 +4866,11 @@ input, select, textarea {
   
   .icon:hover {
 	transform: scale(1.2);
+	font-weight: bold;
   }
   
   .icon:hover i {
-	color: #f39c12;
+	color: #18bfef;
   }
   
   .icon p {
@@ -4871,4 +4878,6 @@ input, select, textarea {
 	font-size: 1rem;
 	color: #333;
 	text-align: center;
-  }
+  } 
+  
+ 
