@@ -4861,7 +4861,7 @@ input, select, textarea {
   
   .icon i {
 	font-size: 3rem;
-	color: #555;
+	color: #212931;
   }
   
   .icon:hover {
@@ -4897,4 +4897,8 @@ input, select, textarea {
 	.skills-icons {
 	  grid-template-columns: 1fr; /* 1 icon per row */
 	}
+  }
+
+  .description1 {
+	text-align: left!important;
   }
