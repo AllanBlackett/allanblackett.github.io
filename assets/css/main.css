@@ -2071,7 +2071,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		border: 0;
-		border-radius: 0;
+		border-radius: 15px;
 		cursor: pointer;
 		display: inline-block;
 		font-family: 'Arial', sans-serif;		
@@ -4724,6 +4724,7 @@ input, select, textarea {
 /* Get In Touch Section */
 #footer .contactcopy {
  	text-align: center;
+	font-size: 21px;
 }
 
 #contacts {
