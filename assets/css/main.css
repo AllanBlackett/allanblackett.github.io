@@ -294,7 +294,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #e7b53c; !important;
 		}
 
 	strong, b {
@@ -2211,8 +2211,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #e7b53c;;
+			color: #e7b53c; !important;
 		}
 
 		input[type="submit"].primary,
@@ -2230,7 +2230,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #e7b53c;;
 			}
 
 /* Form */
@@ -2887,7 +2887,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #e7b53c;;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2895,7 +2895,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #e7b53c;;
 	}
 
 /* Section/Article */
@@ -3196,14 +3196,14 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #e7b53c; !important;
+			border-color: #e7b53c;;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #e7b53c;;
 			}
 
 		.pagination a.active {
@@ -3233,7 +3233,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .85)), url("../../images/img3.jpg");
+			background-image: url("../../images/bg-pattern1.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .85)), url("../../images/gradient-dark.png");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3257,7 +3257,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #1d1d1d;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3323,7 +3323,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #e7b53c; !important;
 			}
 
 		#intro strong, #intro b {
@@ -3362,8 +3362,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #e7b53c;;
+				color: #e7b53c; !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3381,7 +3381,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #e7b53c;;
 				}
 
 		#intro h1 {
@@ -3532,7 +3532,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #e7b53c; !important;
 			}
 
 		#header strong, #header b {
@@ -3576,8 +3576,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #e7b53c; !important;
+				color: #e7b53c; !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3632,7 +3632,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #e7b53c;;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3640,7 +3640,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #e7b53c;;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3654,7 +3654,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #e7b53c; !important;
 			}
 
 		#nav strong, #nav b {
@@ -3730,7 +3730,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #e7b53c; !important;
 						}
 
 		#nav ul.icons {
@@ -3981,7 +3981,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #e7b53c; !important;
 			}
 
 		#footer strong, #footer b {
@@ -4024,8 +4024,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #e7b53c;;
+				color: #e7b53c; !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4043,7 +4043,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #e7b53c;;
 				}
 
 		#footer label {
@@ -4098,7 +4098,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #e7b53c;;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4126,7 +4126,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #e7b53c;;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4134,7 +4134,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #e7b53c;;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4174,14 +4174,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #e7b53c; !important;
+				border-color: #e7b53c;;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #e7b53c;;
 				}
 
 			#footer .pagination a.active {
@@ -4419,7 +4419,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #e7b53c; !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4708,7 +4708,7 @@ input, select, textarea {
 	font-size: 2.5em;
 	text-align: center;
 	padding-top: 1em;
-	background-color: #212931;
+	background-color: #18191d;
     color: #fff;
   }
 
@@ -4717,7 +4717,7 @@ input, select, textarea {
 	font-size: 2.5em;
 	text-align: center;
 	padding-top: 1em;
-	background-color: #212931;
+	background-color: #18191d;
     color: #fff;
   }
 
@@ -4731,7 +4731,7 @@ input, select, textarea {
 	font-size: 2.5em;
 	text-align: center;
 	padding-top: 1em;
-	background-color: #212931;
+	background-color: #18191d;
     color: #fff;
   }
 
@@ -4871,7 +4871,7 @@ input, select, textarea {
   }
   
   .icon:hover i {
-	color: #18bfef;
+	color: #e7b53c;;
   }
   
   .icon p {
@@ -4902,4 +4902,10 @@ input, select, textarea {
 
   .description1 {
 	text-align: left!important;
+  }
+
+  /* Additional Styling */
+
+  .goldfont { 
+	color: #e7b53c;
   }
