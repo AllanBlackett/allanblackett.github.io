@@ -4806,6 +4806,10 @@ input, select, textarea {
   }
 
   /* About Section */
+  .about-list {
+    text-align: left;
+}
+
   .about-title {
     font-size: 1.5rem;
     font-weight: lighter;
